@@ -9,7 +9,7 @@ your_hand=[]
 def generator(hands):
     value=0
     k=len(hands)
-    for i in range(k):               #k for hiding the dealer's card -generator(dealer[0])
+    for i in range(k):               
         if hands[i] in "JQK":
             value+=10
         elif hands[i] not in "JQKA":
